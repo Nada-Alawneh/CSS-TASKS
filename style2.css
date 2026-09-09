@@ -1,0 +1,167 @@
+/* task 1 (static,relative,absolute) */
+    .container1 {
+      border: 2px dotted black;
+      width: fit-content;
+      margin-bottom: 50px;
+      position: relative;
+}
+
+    .box1 {
+      width: 120px;
+      height: 120px;
+      background: red;
+      display: inline-block;
+      color: black;
+      font-weight: bold;
+}
+
+.green {
+  background: green;
+}
+
+/* static */
+.move-static {
+  position: static;
+}
+
+/* relative */
+.move-relative {
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+
+/* absolute */
+.move-absolute {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+
+/* task 3 (colors) */
+.container2 {
+  display: grid;
+  border: 1px solid gray;
+  width: fit-content;
+  font-size: 20px;
+  color: white;
+  font-family: serif;
+  text-align: center;
+}
+.box2 {
+  font-size: 50px;
+  color: white;
+  font-family: serif;
+}
+
+.task3 {
+  grid-template-columns: repeat(9, 100px); 
+  grid-template-rows: 700px;              
+}
+.task3 .b1 { background: green; }
+.task3 .b2 { background: black; }
+.task3 .b3 { background: purple; }
+.task3 .b4 { background: gray; }
+.task3 .b5 { background: blue; }
+.task3 .b6 { background: orange; }
+.task3 .b7 { background: pink;}
+.task3 .b8 { background: red; }
+.task3 .b9 { background: maroon; }
+
+
+
+/* task4: images */
+.task4 {
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(3, 250px);
+  gap: 10px;
+  padding: 10px;
+  
+}
+.task4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* task5 : */
+.task5 {
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(3, 200px);
+}
+.task5 .bo1 { background: teal; }
+.task5 .bo2 { background: blue; }
+.task5 .bo3 { background: purple; }
+.task5 .bo4 { background: navy; }
+.task5 .bo5 { background: yellowgreen; }
+.task5 .bo6 { background: orange; }
+.task5 .bo7 { background: red; }
+.task5 .bo8 { background: gray; }
+.task5 .bo9 { background: green; }
+.task5 .bo10 { background: darkcyan; }
+
+
+/* task6 */
+.task6 {
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 700px;   
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+.task6 .box11 { background: orange; }
+.task6 .box22 { background: blue; }
+
+
+
+/* task 7 fixed img*/
+    .fixed-img {
+     position: fixed;
+     top: 50px;
+     right: 50px;
+     width: 200px;
+    }
+
+
+    /* task 2: cards */
+.task2 {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px;
+  color:black;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card p {
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}

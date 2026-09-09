@@ -1,3 +1,5 @@
+
+/* Task 1: */
 #first-paragraph {
     color: orange;
 }
@@ -81,3 +83,9 @@ td {
   box-shadow: 3px 3px 5px black; 
   text-align: center;                           
 }
+
+body{
+  background-color: rgb(246, 241, 221);
+}
+
+
